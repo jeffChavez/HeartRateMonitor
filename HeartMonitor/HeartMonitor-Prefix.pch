@@ -1,0 +1,27 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #define POLARH7_HRM_DEVICE_INFO_SERVICE_UUID @"180A"
+    #define POLARH7_HRM_HEART_RATE_SERVICE_UUID @"180D"
+    #define POLARH7_HRM_BATTERY_LEVEL_CHARACTERISTIC_UUID @"180F"
+
+    #define POLARH7_HRM_MEASUREMENT_CHARACTERISTIC_UUID @"2A37"
+    #define POLARH7_HRM_BODY_LOCATION_CHARACTERISTIC_UUID @"2A38"
+    #define POLARH7_HRM_MANUFACTURER_NAME_CHARACTERISTIC_UUID @"2A29"
+
+    #define FONTSTRING @"OpenSans-Semibold"
+
+#endif

@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35AFF683185B691D00F1A64F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AFF682185B691D00F1A64F /* Foundation.framework */; };
+		35AFF685185B691D00F1A64F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AFF684185B691D00F1A64F /* CoreGraphics.framework */; };
+		35AFF687185B691D00F1A64F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AFF686185B691D00F1A64F /* UIKit.framework */; };
+		35AFF68D185B691D00F1A64F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35AFF68B185B691D00F1A64F /* InfoPlist.strings */; };
+		35AFF68F185B691D00F1A64F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF68E185B691D00F1A64F /* main.m */; };
+		35AFF693185B691D00F1A64F /* HRMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF692185B691D00F1A64F /* HRMAppDelegate.m */; };
+		35AFF696185B691D00F1A64F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AFF694185B691D00F1A64F /* Main.storyboard */; };
+		35AFF699185B691D00F1A64F /* HRMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF698185B691D00F1A64F /* HRMViewController.m */; };
+		35AFF69B185B691D00F1A64F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AFF69A185B691D00F1A64F /* Images.xcassets */; };
+		35AFF6A2185B691D00F1A64F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AFF6A1185B691D00F1A64F /* XCTest.framework */; };
+		35AFF6A3185B691D00F1A64F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AFF682185B691D00F1A64F /* Foundation.framework */; };
+		35AFF6A4185B691D00F1A64F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35AFF686185B691D00F1A64F /* UIKit.framework */; };
+		35AFF6AC185B691D00F1A64F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35AFF6AA185B691D00F1A64F /* InfoPlist.strings */; };
+		35AFF6AE185B691D00F1A64F /* HeartMonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35AFF6AD185B691D00F1A64F /* HeartMonitorTests.m */; };
+		35AFF6B8185B697000F1A64F /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35AFF6B7185B697000F1A64F /* Media.xcassets */; };
+		6B5A6C891A85EF4D004EBE4D /* Apache License.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6B5A6C7E1A85EF4D004EBE4D /* Apache License.txt */; };
+		6B5A6C8A1A85EF4D004EBE4D /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B5A6C7F1A85EF4D004EBE4D /* OpenSans-Bold.ttf */; };
+		6B5A6C8B1A85EF4D004EBE4D /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B5A6C801A85EF4D004EBE4D /* OpenSans-BoldItalic.ttf */; };
+		6B5A6C8C1A85EF4D004EBE4D /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B5A6C811A85EF4D004EBE4D /* OpenSans-ExtraBold.ttf */; };
+		6B5A6C8D1A85EF4D004EBE4D /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B5A6C821A85EF4D004EBE4D /* OpenSans-ExtraBoldItalic.ttf */; };
+		6B5A6C8E1A85EF4D004EBE4D /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B5A6C831A85EF4D004EBE4D /* OpenSans-Italic.ttf */; };
+		6B5A6C8F1A85EF4D004EBE4D /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B5A6C841A85EF4D004EBE4D /* OpenSans-Light.ttf */; };
+		6B5A6C901A85EF4D004EBE4D /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B5A6C851A85EF4D004EBE4D /* OpenSans-LightItalic.ttf */; };
+		6B5A6C911A85EF4D004EBE4D /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B5A6C861A85EF4D004EBE4D /* OpenSans-Regular.ttf */; };
+		6B5A6C921A85EF4D004EBE4D /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B5A6C871A85EF4D004EBE4D /* OpenSans-Semibold.ttf */; };
+		6B5A6C931A85EF4D004EBE4D /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6B5A6C881A85EF4D004EBE4D /* OpenSans-SemiboldItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		35AFF6A5185B691D00F1A64F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 35AFF677185B691D00F1A64F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35AFF67E185B691D00F1A64F;
+			remoteInfo = HeartMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		35AFF67F185B691D00F1A64F /* HeartMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		35AFF682185B691D00F1A64F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		35AFF684185B691D00F1A64F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		35AFF686185B691D00F1A64F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		35AFF68A185B691D00F1A64F /* HeartMonitor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeartMonitor-Info.plist"; sourceTree = "<group>"; };
+		35AFF68C185B691D00F1A64F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35AFF68E185B691D00F1A64F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35AFF690185B691D00F1A64F /* HeartMonitor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeartMonitor-Prefix.pch"; sourceTree = "<group>"; };
+		35AFF691185B691D00F1A64F /* HRMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRMAppDelegate.h; sourceTree = "<group>"; };
+		35AFF692185B691D00F1A64F /* HRMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRMAppDelegate.m; sourceTree = "<group>"; };
+		35AFF695185B691D00F1A64F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35AFF697185B691D00F1A64F /* HRMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRMViewController.h; sourceTree = "<group>"; };
+		35AFF698185B691D00F1A64F /* HRMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRMViewController.m; sourceTree = "<group>"; };
+		35AFF69A185B691D00F1A64F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		35AFF6A0185B691D00F1A64F /* HeartMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		35AFF6A1185B691D00F1A64F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		35AFF6A9185B691D00F1A64F /* HeartMonitorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeartMonitorTests-Info.plist"; sourceTree = "<group>"; };
+		35AFF6AB185B691D00F1A64F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		35AFF6AD185B691D00F1A64F /* HeartMonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeartMonitorTests.m; sourceTree = "<group>"; };
+		35AFF6B7185B697000F1A64F /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		6B5A6C7E1A85EF4D004EBE4D /* Apache License.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Apache License.txt"; sourceTree = "<group>"; };
+		6B5A6C7F1A85EF4D004EBE4D /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		6B5A6C801A85EF4D004EBE4D /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		6B5A6C811A85EF4D004EBE4D /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		6B5A6C821A85EF4D004EBE4D /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		6B5A6C831A85EF4D004EBE4D /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		6B5A6C841A85EF4D004EBE4D /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		6B5A6C851A85EF4D004EBE4D /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		6B5A6C861A85EF4D004EBE4D /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		6B5A6C871A85EF4D004EBE4D /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		6B5A6C881A85EF4D004EBE4D /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35AFF67C185B691D00F1A64F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AFF685185B691D00F1A64F /* CoreGraphics.framework in Frameworks */,
+				35AFF687185B691D00F1A64F /* UIKit.framework in Frameworks */,
+				35AFF683185B691D00F1A64F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35AFF69D185B691D00F1A64F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AFF6A2185B691D00F1A64F /* XCTest.framework in Frameworks */,
+				35AFF6A4185B691D00F1A64F /* UIKit.framework in Frameworks */,
+				35AFF6A3185B691D00F1A64F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		35AFF676185B691D00F1A64F = {
+			isa = PBXGroup;
+			children = (
+				35AFF688185B691D00F1A64F /* HeartMonitor */,
+				35AFF6A7185B691D00F1A64F /* HeartMonitorTests */,
+				35AFF681185B691D00F1A64F /* Frameworks */,
+				35AFF680185B691D00F1A64F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		35AFF680185B691D00F1A64F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35AFF67F185B691D00F1A64F /* HeartMonitor.app */,
+				35AFF6A0185B691D00F1A64F /* HeartMonitorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		35AFF681185B691D00F1A64F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35AFF682185B691D00F1A64F /* Foundation.framework */,
+				35AFF684185B691D00F1A64F /* CoreGraphics.framework */,
+				35AFF686185B691D00F1A64F /* UIKit.framework */,
+				35AFF6A1185B691D00F1A64F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		35AFF688185B691D00F1A64F /* HeartMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				35AFF691185B691D00F1A64F /* HRMAppDelegate.h */,
+				35AFF692185B691D00F1A64F /* HRMAppDelegate.m */,
+				35AFF694185B691D00F1A64F /* Main.storyboard */,
+				35AFF697185B691D00F1A64F /* HRMViewController.h */,
+				35AFF698185B691D00F1A64F /* HRMViewController.m */,
+				35AFF69A185B691D00F1A64F /* Images.xcassets */,
+				35AFF689185B691D00F1A64F /* Supporting Files */,
+				35AFF6B7185B697000F1A64F /* Media.xcassets */,
+			);
+			path = HeartMonitor;
+			sourceTree = "<group>";
+		};
+		35AFF689185B691D00F1A64F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B5A6C7D1A85EF4D004EBE4D /* open-sans */,
+				35AFF68A185B691D00F1A64F /* HeartMonitor-Info.plist */,
+				35AFF68B185B691D00F1A64F /* InfoPlist.strings */,
+				35AFF68E185B691D00F1A64F /* main.m */,
+				35AFF690185B691D00F1A64F /* HeartMonitor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		35AFF6A7185B691D00F1A64F /* HeartMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				35AFF6AD185B691D00F1A64F /* HeartMonitorTests.m */,
+				35AFF6A8185B691D00F1A64F /* Supporting Files */,
+			);
+			path = HeartMonitorTests;
+			sourceTree = "<group>";
+		};
+		35AFF6A8185B691D00F1A64F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35AFF6A9185B691D00F1A64F /* HeartMonitorTests-Info.plist */,
+				35AFF6AA185B691D00F1A64F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B5A6C7D1A85EF4D004EBE4D /* open-sans */ = {
+			isa = PBXGroup;
+			children = (
+				6B5A6C7E1A85EF4D004EBE4D /* Apache License.txt */,
+				6B5A6C7F1A85EF4D004EBE4D /* OpenSans-Bold.ttf */,
+				6B5A6C801A85EF4D004EBE4D /* OpenSans-BoldItalic.ttf */,
+				6B5A6C811A85EF4D004EBE4D /* OpenSans-ExtraBold.ttf */,
+				6B5A6C821A85EF4D004EBE4D /* OpenSans-ExtraBoldItalic.ttf */,
+				6B5A6C831A85EF4D004EBE4D /* OpenSans-Italic.ttf */,
+				6B5A6C841A85EF4D004EBE4D /* OpenSans-Light.ttf */,
+				6B5A6C851A85EF4D004EBE4D /* OpenSans-LightItalic.ttf */,
+				6B5A6C861A85EF4D004EBE4D /* OpenSans-Regular.ttf */,
+				6B5A6C871A85EF4D004EBE4D /* OpenSans-Semibold.ttf */,
+				6B5A6C881A85EF4D004EBE4D /* OpenSans-SemiboldItalic.ttf */,
+			);
+			path = "open-sans";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		35AFF67E185B691D00F1A64F /* HeartMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35AFF6B1185B691D00F1A64F /* Build configuration list for PBXNativeTarget "HeartMonitor" */;
+			buildPhases = (
+				35AFF67B185B691D00F1A64F /* Sources */,
+				35AFF67C185B691D00F1A64F /* Frameworks */,
+				35AFF67D185B691D00F1A64F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartMonitor;
+			productName = HeartMonitor;
+			productReference = 35AFF67F185B691D00F1A64F /* HeartMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		35AFF69F185B691D00F1A64F /* HeartMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35AFF6B4185B691D00F1A64F /* Build configuration list for PBXNativeTarget "HeartMonitorTests" */;
+			buildPhases = (
+				35AFF69C185B691D00F1A64F /* Sources */,
+				35AFF69D185B691D00F1A64F /* Frameworks */,
+				35AFF69E185B691D00F1A64F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				35AFF6A6185B691D00F1A64F /* PBXTargetDependency */,
+			);
+			name = HeartMonitorTests;
+			productName = HeartMonitorTests;
+			productReference = 35AFF6A0185B691D00F1A64F /* HeartMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		35AFF677185B691D00F1A64F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HRM;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Razeware LLC";
+				TargetAttributes = {
+					35AFF69F185B691D00F1A64F = {
+						TestTargetID = 35AFF67E185B691D00F1A64F;
+					};
+				};
+			};
+			buildConfigurationList = 35AFF67A185B691D00F1A64F /* Build configuration list for PBXProject "HeartMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 35AFF676185B691D00F1A64F;
+			productRefGroup = 35AFF680185B691D00F1A64F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35AFF67E185B691D00F1A64F /* HeartMonitor */,
+				35AFF69F185B691D00F1A64F /* HeartMonitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35AFF67D185B691D00F1A64F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AFF69B185B691D00F1A64F /* Images.xcassets in Resources */,
+				6B5A6C931A85EF4D004EBE4D /* OpenSans-SemiboldItalic.ttf in Resources */,
+				6B5A6C8D1A85EF4D004EBE4D /* OpenSans-ExtraBoldItalic.ttf in Resources */,
+				6B5A6C901A85EF4D004EBE4D /* OpenSans-LightItalic.ttf in Resources */,
+				35AFF68D185B691D00F1A64F /* InfoPlist.strings in Resources */,
+				6B5A6C8E1A85EF4D004EBE4D /* OpenSans-Italic.ttf in Resources */,
+				6B5A6C8A1A85EF4D004EBE4D /* OpenSans-Bold.ttf in Resources */,
+				6B5A6C8C1A85EF4D004EBE4D /* OpenSans-ExtraBold.ttf in Resources */,
+				6B5A6C8B1A85EF4D004EBE4D /* OpenSans-BoldItalic.ttf in Resources */,
+				6B5A6C891A85EF4D004EBE4D /* Apache License.txt in Resources */,
+				35AFF6B8185B697000F1A64F /* Media.xcassets in Resources */,
+				6B5A6C8F1A85EF4D004EBE4D /* OpenSans-Light.ttf in Resources */,
+				6B5A6C911A85EF4D004EBE4D /* OpenSans-Regular.ttf in Resources */,
+				6B5A6C921A85EF4D004EBE4D /* OpenSans-Semibold.ttf in Resources */,
+				35AFF696185B691D00F1A64F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35AFF69E185B691D00F1A64F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AFF6AC185B691D00F1A64F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35AFF67B185B691D00F1A64F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AFF693185B691D00F1A64F /* HRMAppDelegate.m in Sources */,
+				35AFF68F185B691D00F1A64F /* main.m in Sources */,
+				35AFF699185B691D00F1A64F /* HRMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35AFF69C185B691D00F1A64F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35AFF6AE185B691D00F1A64F /* HeartMonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		35AFF6A6185B691D00F1A64F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 35AFF67E185B691D00F1A64F /* HeartMonitor */;
+			targetProxy = 35AFF6A5185B691D00F1A64F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		35AFF68B185B691D00F1A64F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35AFF68C185B691D00F1A64F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		35AFF694185B691D00F1A64F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35AFF695185B691D00F1A64F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35AFF6AA185B691D00F1A64F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35AFF6AB185B691D00F1A64F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		35AFF6AF185B691D00F1A64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		35AFF6B0185B691D00F1A64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		35AFF6B2185B691D00F1A64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeartMonitor/HeartMonitor-Prefix.pch";
+				INFOPLIST_FILE = "HeartMonitor/HeartMonitor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		35AFF6B3185B691D00F1A64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeartMonitor/HeartMonitor-Prefix.pch";
+				INFOPLIST_FILE = "HeartMonitor/HeartMonitor-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		35AFF6B5185B691D00F1A64F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HeartMonitor.app/HeartMonitor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeartMonitor/HeartMonitor-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HeartMonitorTests/HeartMonitorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		35AFF6B6185B691D00F1A64F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HeartMonitor.app/HeartMonitor";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeartMonitor/HeartMonitor-Prefix.pch";
+				INFOPLIST_FILE = "HeartMonitorTests/HeartMonitorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		35AFF67A185B691D00F1A64F /* Build configuration list for PBXProject "HeartMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35AFF6AF185B691D00F1A64F /* Debug */,
+				35AFF6B0185B691D00F1A64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35AFF6B1185B691D00F1A64F /* Build configuration list for PBXNativeTarget "HeartMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35AFF6B2185B691D00F1A64F /* Debug */,
+				35AFF6B3185B691D00F1A64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35AFF6B4185B691D00F1A64F /* Build configuration list for PBXNativeTarget "HeartMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35AFF6B5185B691D00F1A64F /* Debug */,
+				35AFF6B6185B691D00F1A64F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 35AFF677185B691D00F1A64F /* Project object */;
+}
